@@ -32,13 +32,14 @@ Each record contains:
 ## How to Run
 
 **Option 1: Python IDLE**
+
 1. Open `sample_data.py` in Python IDLE.
 2. Select **Run → Run Module**.
 3. View the records in the Python Shell.
 
 **Option 2: Terminal**
 
-Run:
+Run the following command:
 
 ```bash
 python sample_data.py
