@@ -1,18 +1,20 @@
+ 
+disease = input("Enter a disease (Malaria, Tuberculosis, HIV): ").strip().lower()
 
-# 
+if disease == "malaria":
+    print("Disease: Malaria")
+    print("Number of cases: 120")
+    print("Region: Oromia")
 
-# Public Health Data
-# Five public health records
+elif disease == "tuberculosis":
+    print("Disease: Tuberculosis")
+    print("Number of cases: 85")
+    print("Region: Amhara")
 
-records = [
-    {"id": "P001", "age": 24, "disease": "Malaria", "region": "Oromia"},
-    {"id": "P002", "age": 35, "disease": "Tuberculosis", "region": "Amhara"},
-    {"id": "P003", "age": 29, "disease": "HIV", "region": "Sidama"},
-    {"id": "P004", "age": 42, "disease": "Malaria", "region": "Addis Ababa"},
-    {"id": "P005", "age": 31, "disease": "Tuberculosis", "region": "Somali"}
-]
+elif disease == "hiv":
+    print("Disease: HIV")
+    print("Number of cases: 60")
+    print("Region: Sidama")
 
-print(" Public Health Records")
-
-for record in records:
-    print(record)
+else:
+    print("Disease not found in the sample data.")
